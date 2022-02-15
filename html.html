@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tetris</title>
+	<link rel="stylesheet" href="css.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="body">
+		<div id="coords">A B C D E F G H I J K L M</div>
+		<div id="coords2">0 1 2 3 4 5 6 7 8 9 <div style="display:inline-block; margin-left:-30px; word-spacing: -5px">10 11 12</div></div>
+
+		<table id="table"></table>
+		<div id="rules">
+			Правила:<br>
+			1. Как в шахматах;<br>
+			2. Сруб королевы даёт ход.<br>
+			3. Пешки образуют за собой "линию поддержки", которая даёт дополнительный ход фигуре, вставшей на неё в этом ходу (один раз за ход);<br>
+			4. Дополнительным ходом, полученым от линии поддержки, нельзя сразу сделать мат, но дополнительным ходом за взятие королевы можно (например, когда королева срубила другую, находящуюся рядом с королём).
+		</div>
+		<script type="text/javascript" src="js.js"></script>
+	</div>
+</body>
+</html>

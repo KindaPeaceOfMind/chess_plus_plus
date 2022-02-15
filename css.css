@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	cursor:url(figs/1.png), auto;
+}
+#body {
+	position:absolute;
+	width:1000px;
+}
+#table {
+	width: auto;
+	height: auto;
+	border: solid 1px black;
+	position: absolute;
+	left: 65px;
+	top: 60px;
+}
+#table tr {
+}
+#table tr td {
+	height: 60px;
+	width: 60px;
+	border: solid 1px black;
+	background-size: cover;
+}
+.OddCell {
+	background-color: #111100aa;
+}
+.colored {
+	background-color: #00aa00;
+}
+.supply{
+	background-color: aqua;
+}
+#coords {
+	position: absolute;
+	display: flex;
+	width: 20px;
+	font-size: 58px;
+	top: 55px;
+	left: 5px;
+}
+#coords2 {
+	position: absolute;
+	font-size: 60px;
+	left: 80px;
+	text-align:justify;
+	width: 1200px;
+	word-spacing:22px;
+}
+#rules {
+	position: absolute;
+	left: 1000px;
+	width: 400px;
+	font-size: 28px;
+	text-align:justify;
+}
+.figs {
+	position: absolute;
+	height: 64px;
+	width: 64px;
+	top:2px;
+	left: 2px;
+}
+.fig1{background-image: url(figs/1.png);}
